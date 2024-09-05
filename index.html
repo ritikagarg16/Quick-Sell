@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+        <h1  display: block;
+        font-size: 2em; > Today's biggest hits</h1>
+
+        <div class="songItemContainer">
+
+        <div class="songItem">
+            <img src="cover1.jpg" alt="1">
+            <span class="songName">RedBone</span>
+            <span class="songDuration">5:25</span>
+            <span class="songlistplay"><span class="timestamp"><i id="0"  class="fa-regular songItemPlay  fa-circle-play fa-2xl" style="color: black;"></i></span> </span>
+             </div>
+
+             <div class="songItem">
+                <img  alt="2">
+                <span class="songName">Ride</span>
+                <span class="songDuration">4:50</span>
+                <span class="songlistplay"><span class="timestamp"><i id="1" class="fa-regular songItemPlay fa-circle-play fa-2xl" style="color: black;"></i></span> </span>
+                 </div>
+                 
+
+                 <div class="songItem">
+                    <img alt="3">
+                    <span class="songName">good days</span>
+                    <span class="songDuration">4:42</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="2" class="fa-regular songItemPlay fa-circle-play fa-2xl" style="color: black;"></i></span> </span>
+                     </div>
+
+                     <div class="songItem">
+                        <img alt="1">
+                        <span class="songName">Escapism</span>
+                        <span class="songDuration">4:32</span>
+                        <span class="songlistplay"><span class="timestamp"><i id="3" class="fa-regular songItemPlay fa-circle-play fa-2xl" style="color: black;"></i></span> </span>
+                         </div>
+
+                         <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Jungle</span>
+                            <span class="songDuration">5:20</span>
+                            <span class="songlistplay"><span class="timestamp"><i id="4" class="fa-regular songItemPlay fa-circle-play fa-2xl" style="color: black;"></i></span> </span>
+                             </div>
+
+                             <div class="songItem">
+                                <img  alt="1">
+                                <span class="songName">ivy </span> <span class="songDuration">4:09</span>
+                                <span class="songlistplay"><span class="timestamp"><i id="5" class="fa-regular songItemPlay fa-circle-play fa-2xl " style="color: black;"></i></span> </span>
+                                 </div>
+        </div>
+    </div>
+       
+     <div class="songBanner"></div>
+</div>
+
+<div class="bottom">
+    <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+    <div class="icons">
+        <!--fontawesome icons-->
+        <i class="fa-solid fa-backward-step fa-2xl" style="color: #ffffff;" id="previous"></i>
+        <i class="fa-regular fa-circle-play fa-2xl" style="color: #ffffff;" id="masterPlay"></i>
+        <i  class="fa-solid fa-forward-step fa-2xl" style="color: #ffffff;" id="next"></i>
+         <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">//<i id="1" class="fa-regular fa-circle-pause fa-2xl" style="color: #fcfcfc;"></i>-->
+    </div>
+
+    <div class="songInfo">
+        <img src="giphy.gif" width="100px" alt="" id="gif" style="margin-top: 2cm;">
+        <span id="masterSongName" style="margin-top: 3cm;">RedBone</span>
+       <!-- <span id="songTimer"  class="fa fa-align-right" aria-hidden="true" style="margin-top: 2cm; margin-right: 3cm;">0:00 / 5:25</span> -->
+    </div>
+    
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/56bc368154.js" crossorigin="anonymous"></script>
+</body>
+</html
